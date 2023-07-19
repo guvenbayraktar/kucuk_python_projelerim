@@ -1,0 +1,14 @@
+secim = input("seçilen işlem: (toplama, çıkarma, çarpma, bölme): ")
+sayı_1 = float(input("birici sayı: "))
+sayı_2 = float(input("ikinci sayı: "))
+
+if secim == "toplama":
+     print(sayı_1 + sayı_2)
+elif secim == "çıkarma":
+     print(sayı_1 - sayı_2)
+elif secim == "çarpma":
+     print(sayı_1 * sayı_2)
+elif secim == "bölme":
+     print(sayı_1 / sayı_2)
+else:
+     print("geçersiz işlem !")
