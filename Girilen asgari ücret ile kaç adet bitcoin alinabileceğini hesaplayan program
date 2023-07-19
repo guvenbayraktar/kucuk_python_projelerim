@@ -1,0 +1,8 @@
+parite = 'Bitcoin/TL'
+guncel_kur = float(input("güncel kur: "))
+asgari_ucret = float(input("asgari_mayış: "))
+
+if guncel_kur > 0:
+  if asgari_ucret > 0:
+    verilecek_bitcoin = asgari_ucret / guncel_kur
+print(f'alınabilecek bitcoin miktarı:\t {verilecek_bitcoin}')
