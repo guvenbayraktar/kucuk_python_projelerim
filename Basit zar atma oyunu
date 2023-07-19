@@ -1,0 +1,13 @@
+kasa = 100
+
+secilen_zar = int(input('hangi zari sectin '))
+gelecek_zar = random.randrange(1, 7)
+
+print("eldeki_para", kasa, "$", "oynanan_zar", secilen_zar)
+
+if secilen_zar == gelecek_zar:
+     kasa = (kasa + 5)
+else:
+     kasa = (kasa - 5)
+
+print("son_para", kasa, "$", "gelen_zar", gelecek_zar)
