@@ -1,0 +1,17 @@
+vize1_notu = float(input('Vize_1 notunu girin '))
+vize2_notu = float(input('Vize_2 notunu girin '))
+final_notu = float(input('Final notunu girin '))
+
+ortalama = (vize1_notu + vize2_notu + final_notu) / 3
+
+if ortalama > 100:
+    print('hatalı ortalama')
+    
+elif ortalama >85:
+    print('AA',ortalama)
+
+elif ortalama >50:
+    print('BB',ortalama)
+
+else:
+    print('FF',ortalama)
